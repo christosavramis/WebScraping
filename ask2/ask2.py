@@ -134,8 +134,8 @@ def getTheTitles(urls, request_delay):
                 # Update Progress Bar
                 printProgressBar(i + 1, l, prefix = 'Progress:', suffix = 'Complete', length = 50)
 
-        print("writing to file ... ")
         #Write the dictionary to the file
+        print("writing to file ... ")
         writeToFile(infos)
              
 def writeToFile(infos):
