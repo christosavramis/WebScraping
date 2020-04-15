@@ -78,6 +78,7 @@ class TypeRacerBot():
         self._virtualKeyboard(contect)
 
     def play_practice_unlimited(self,url):
+        # it needs work
         self.loadPage(url)
         #press practice
         element = WebDriverWait(self.browser, 10).until(
